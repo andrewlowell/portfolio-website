@@ -164,7 +164,7 @@ input, select, textarea {
 
 	strong, b {
 		color: #ffffff;
-		font-weight: 600;
+		font-weight: 900;
 	}
 
 	em, i {
@@ -1640,15 +1640,7 @@ input, select, textarea {
 			opacity: 0;
 		}
 		
-		.heartbeat {
-			-webkit-animation-name: heartbeat;
-			-moz-animation-name: heartbeat;
-			-o-animation-name: heartbeat;
-			animation-name: heartbeat;
-		}
-
-		.animate-infinite-heartbeat {
-			-webkit-animation: heartbeat 2s infinite;
+		.logo:hover {
 			animation: heartbeat 2s infinite;
 		}
 		
